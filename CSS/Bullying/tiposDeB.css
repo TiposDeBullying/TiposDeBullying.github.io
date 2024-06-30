@@ -1,0 +1,23 @@
+.tipos-bulling{
+    width: 20%;
+    background-color: rgb(186, 230, 255);
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+    padding: 10px  10px  10px  10px;
+    
+}
+.tipos-bulling a{
+    color: black;
+    text-decoration: none;
+}
+
+.tipos-bulling a:hover{
+    text-decoration: underline;
+}
+
+.tipos-bulling p{
+    padding: 10px;
+    font-size: 20px ;
+    font-weight: bold;
+}

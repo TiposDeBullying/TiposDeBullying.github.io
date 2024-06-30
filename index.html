@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Bullying/footer.css">
+    <link rel="stylesheet" href="CSS/Bullying/header.css">
+    <link rel="stylesheet" href="CSS/Bullying/textBulling.css">
+    <link rel="stylesheet" href="CSS/Bullying/tiposDeB.css">
+    <title>Bullying</title>
+</head>
+
+<body>
+    <header>
+
+        <section>
+            <h1><a href="BULLYING.HTML">B</a></h1>
+        </section>
+
+        
+
+            <div class="audio">
+                <audio id="audio" source src="aud/song1.mp3"></audio>
+                <button class="play" onclick="togglePlayPause()"><img class="on" id="play" src="img/apagado.png" onclick="cambiarImagen()"></button>
+            </div>
+            
+
+
+
+    </header>
+    <h2 class="tituloB">Bullying</h2>
+    <h2 class="titulo">Tipos de Bullying</h2>
+    <div class="tipos-bulling">
+        <ul>
+            <a href="Ciberbullying.html">
+                <p>Ciberbullying</p>
+            </a>
+            <a href="Fisico.html">
+                <p>Bullying Físico</p>
+            </a>
+            <a href="psicologico.html">
+                <p>Bullying Psicológico</p>
+            </a>
+            <a href="verbal.html">
+                <p>Bullying Verbal</p>
+            </a>
+            <a href="Sexual.html">
+                <p>Bullying Sexual</p>
+            </a>
+            <a href="social.html">
+                <p>Bullying Social</p>
+            </a>
+
+        </ul>
+    </div>
+
+
+
+    
+
+
+
+
+
+
+    <div class="text-bulling">
+
+        <p>
+            Definir el bullying como tal es una tarea sencilla puesto que este es el acto de ejercer poder sobre otra
+            persona utilizando la violencia, ya sea física, verbal, psicológica, sexual, cibernética, inclusive
+            la social, llevada a cabo por una o varias personas hacia otra u otras personas. Siendo conocidos al agresor
+            o agresores como victimarios y victimas al o las personas que sufren las agresiones.
+        </p>
+
+        <p>
+            Lo complicado de este asunto es cuando este concepto tan claro y preciso que es, se trata de identificar
+            en un caso de la vida real o cotidiana. Donde el bullying puede ser tan intenso que incluso se involucren
+            autoridades gubernamentales o tan sutil que ni siquiera la misma víctima pueda identificarlo. Normalmente
+            los casos de bullying inician con agresiones verbales, que van de la mano con el bullying psicológico puesto
+            que en este se daña la autoestima de las víctimas haciéndoles creer que son de lo peor y que se merecen lo
+            que se les esta sucediendo, donde provocar miedo y generar humillaciones hacen que se sientan menos
+            y vulnerables. Escalando con agresiones físicas donde se pueden dejar daños irreversibles a la salud. También se puede combinar con el bullying cibernético en el cual se dejan comentarios de odio o genera spam y en
+            el tema social hacen que la gente se aparte de la víctima o apartan a la víctima.
+        </p>
+
+        <div class="imagen">
+            <img src="img/bullying.jpg" alt="" class="bulling-img">
+        </div>
+
+        <p>
+            En otros casos se involucran la violencia sexual que aunque puede ir de la mano con los otros tipos de
+            bullying también puede ejercerse de manera unilateral. Cabe recordar que el bullying puede ser ejercido
+            tanto como por familiares, compañeros de escuela o trabajo, por jefes o incluso como ejemplo, de alumnos
+            hacia un docente, puesto que el bullying no respeta edades como le puede ocurrir a niños, adolescentes, jóvenes adultos, adultos y hasta a personas de la tercera edad.
+        </p>
+
+        <p>
+            Por eso es importante concientizar a la gente sobre este tema y poner sanciones justas pero firmes al
+            ocurrir un caso de bullying ya sea de cualquier tipo, dándoles un seguimiento al caso, protegiendo y
+            apoyando a la víctima y tratando de entender del por qué la actitud del victimario, para poder tratarlo.
+        </p>
+
+
+
+        <h1>Grafica de edades del bullying</h1>
+        <div class="grafica">
+            <img src="img/graficaBulling.jpg" alt="">
+        </div>
+
+        <h1>Video para la prevención del bullying</h1>
+        <div class="video-bulling">
+            <video src="vid/como-prevenir-el-bullying-en-el-aula.mp4" controls></video>
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <h2 class="titulo-final">&copy;Jahaziel Segura Mar</h2>
+        <h2 class="titulo-final">&copy;Daniela Joseline Ramirez Rivera</h2>
+        <h2 class="titulo-final">&copy;Maria Isabel Escobar Cristobal</h2>
+    </footer>
+</body>
+
+
+<script>
+      var audio = document.getElementById("audio");
+
+function togglePlayPause() {
+  if (audio.paused) {
+    alert("Haz activado la musica");
+    audio.play();
+  } else {
+    alert("Haz desactivado la musica");
+    audio.pause(); 
+    
+  }
+}
+
+function cambiarImagen() {
+var play = document.getElementById("play");
+if (play.src.endsWith("img/apagado.png")) {
+play.src = "img/prendido.png";
+
+} else {
+play.src = "img/apagado.png";
+
+}
+}
+
+
+
+</script>
+</html>

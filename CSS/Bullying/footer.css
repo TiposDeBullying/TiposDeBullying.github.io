@@ -1,0 +1,16 @@
+footer{
+    background-color: darkgoldenrod;
+    width: 90%;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer .titulo-final{
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+
+
+}
