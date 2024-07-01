@@ -35,7 +35,7 @@
 .imagen-lados .text-izquierda img{
     height: 100%;
     width: 100%;
-    padding: 0 10px 600px 10px;
+    padding: 0 10px 400px 10px;
 }
 
 .imagen-lados .text-derecha{
@@ -50,5 +50,5 @@
 .imagen-lados .text-derecha img{
     height: 100%;
     width: 100%;
-    padding: 0 10px 600px 10px;
+    padding: 400px 10px 0px 10px;
 }
